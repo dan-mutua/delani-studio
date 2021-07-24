@@ -2,6 +2,7 @@
     background-image: url(./assets/backgrounds/h_img.jpg);
     text-align: center;
     height: 600px;
+    color: white;
 }
  
 .about{
@@ -13,13 +14,19 @@
     text-align: center;
     height: 300px;
     font-size: x-large;
+    color:white;
 }
 
 .what-we-do{
     display: inline;
     padding: 30px;
+    text-align: center;
 
     
+}
+
+.icon{
+    padding: 100px;
 }
 
 .icond{
