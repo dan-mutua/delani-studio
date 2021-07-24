@@ -16,19 +16,27 @@
 }
 
 .what-we-do{
-    display: flex;
-    text-align: center;
+    display: inline;
+    padding: 30px;
+
     
+}
+
+.icond{
+    text-align: center;
 }
 
 .portfolio{
     text-align: center;
+    border-bottom: 100px;
+    
 }
 
 .contact{
     background-image: url(./assets/backgrounds/c_image.jpg);
     text-align: center;
     height: 500px;
+    border-top: 100px;
 }
 
 footer{
