@@ -5,6 +5,10 @@
     color: white;
 }
  
+.mous{
+    padding-top: 200px;
+}
+
 .about{
   text-align: center;
   height: 200px;
@@ -27,6 +31,7 @@
 
 .icon{
     padding: 100px;
+   
 }
 
 .icond{
