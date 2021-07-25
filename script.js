@@ -26,10 +26,5 @@ $(document).ready(function(){
   
 });
 
-$(document).ready(function){
-  $(".c4").hover(function){
-    
-  }
-}
 
 
