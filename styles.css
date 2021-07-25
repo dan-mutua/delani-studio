@@ -3,6 +3,7 @@
     text-align: center;
     height: 600px;
     color: white;
+    padding-top: 50px;
 }
  
 .mous{
@@ -50,7 +51,24 @@
     height: 500px;
     border-top: 100px;
 }
+.msg{
+    height: 200px;
+    width: 500px;
+    background: none;
+    color: white;
+}
+
+.em{
+    width: 250px ;
+    height: 20px;
+    background: none;
+    color: rgb(245, 245, 245);
+}
 
 footer{
     text-align: center;
+}
+
+*{
+    background-color: teal;
 }
