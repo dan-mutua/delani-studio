@@ -53,6 +53,9 @@
 .portfolio{
     text-align: center;
     border-bottom: 100px;
+    margin-right: 140px;
+    margin-left: 170px;
+    margin-bottom: 39px;
     
 }
 
@@ -85,4 +88,8 @@
 
 footer{
     text-align: center;
+}
+.work4:hover{
+    border:solid white;
+    opacity: 0.8;
 }
