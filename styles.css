@@ -38,6 +38,15 @@
 .icond{
     text-align: center;
 }
+#designp{
+    display: none;
+}
+#dev{
+    display: none;
+}
+#productp{
+    display: none;
+}
 
 .portfolio{
     text-align: center;
@@ -62,13 +71,9 @@
     width: 250px ;
     height: 20px;
     background: none;
-    color: rgb(245, 245, 245);
+
 }
 
 footer{
     text-align: center;
-}
-
-*{
-    background-color: teal;
 }
