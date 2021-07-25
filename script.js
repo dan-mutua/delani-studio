@@ -23,5 +23,13 @@ $(document).ready(function(){
     $("#production").show();
     $("#productp").hide();
   });
+  
 });
+
+$(document).ready(function){
+  $(".c4").hover(function){
+    
+  }
+}
+
 
