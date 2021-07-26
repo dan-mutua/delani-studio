@@ -4,20 +4,18 @@ This website helps clients learn more about delani studio and the services they 
 ### Created By Daniel Mutua on 25-07-2021
 
 ### Setup/Installation Requirements
-Git
-Web-browser or your choice
-Github
+* Git
+* Web-browser or your choice
+* Github
 ### Technologies Used
 The following languages have been used on this project:
 
-HTML
-CSS
-BOOTSTRAP
-JAVASCRIPT
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
 ### Setup/Installation Requirements
 Live link to view the project <a href=https://dan-mutua.github.io/delani-studio>Delani studio</a>
-A sample Screenshot
-<img src= Delani Studio.jpg alt=delani>
 
 ### Known Bugs
 So far so good there are no bugs related to this project sunglasses
