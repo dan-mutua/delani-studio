@@ -23,7 +23,6 @@ So far so good there are no bugs related to this project sunglasses
 ### Support and contact details 
 To make a contribution to the code used or any suggestions you can click on the contact link and email us your suggestions.
 
-Email: daniel.mutua@student.moringaschool.com
-Phone: +254724961973
-License
-MIT licence Copyright (c) 2021 Moringa school.
+* Email: daniel.mutua@student.moringaschool.com
+* Phone: +254724961973
+* License MIT licence Copyright (c) 2021 Moringa school.
