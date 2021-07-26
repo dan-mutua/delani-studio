@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
    
-    <script src="script.js" ></script>
+    
     <title>Delani-studio</title>
   </head>
-  <body>
+<body class="container-fluid-cover">
     <div class="top">
       <img src="./assets/logo/logo.png" alt="logo" />
       <h2>WELCOME</h2>
@@ -43,10 +43,10 @@
         offering or just the pieces you need.
       </p>
     </div>
-    <div class="what-we-do">
+    <div class="what-we-do container-fluid">
       <h3>WHAT WE DO</h3>
         <div class="icon">
-            <div class="designicon" id="design">
+            <div class="designicon img-fluid" id="design">
               <img src="./assets/services_icons/design_icon.png" alt="design logo"  />
             </div>
             <div id="designp"><p ><h3>Design</h3>
@@ -89,35 +89,35 @@
         <div class="row row-cols-1 row-cols-md-4 g-4 portfolio ">  
                 <div class="c4">
                     <div id="c4"></div>
-                    <img src="./assets/portfolio/work4.jpg" class="card " alt="work4">
+                    <img src="./assets/portfolio/work4.jpg" class="card img-fluid" alt="work4">
                 </div>  
                 <div class="c3">            
                     <div id="c3"></div>
-                    <img src="./assets/portfolio/work3.jpg" class="card" alt="work3">
+                    <img src="./assets/portfolio/work3.jpg" class="card img-fluid" alt="work3">
                 </div>  
                 <div class="c2">                    
                     <div id="c2"></div>
-                    <img src="./assets/portfolio/work2.jpg" class="card " alt="work2">
+                    <img src="./assets/portfolio/work2.jpg" class="card img-fluid" alt="work2">
                 </div>    
                 <div class="c1">                      
                     <div id="c1"></div>
-                    <img src="./assets/portfolio/work1.jpg" class="card " alt="work1">
+                    <img src="./assets/portfolio/work1.jpg" class="card img-fluid" alt="work1">
                 </div>
                 <div class="c5">     
                     <div id="c5"></div>
-                    <img src="./assets/portfolio/work5.jpg" class="card " alt="work5">
+                    <img src="./assets/portfolio/work5.jpg" class="card img-fluid" alt="work5">
                 </div> 
                 <div class="c6">
                     <div id="c6"></div>
-                    <img src="./assets/portfolio/work6.jpg" class="card " alt="work6">
+                    <img src="./assets/portfolio/work6.jpg" class="card img-fluid" alt="work6">
                 </div>             
                 <div class="c7">
                      <div id="c7"></div>
-                    <img src="./assets/portfolio/work7.jpg" class="card" alt="work7">
+                    <img src="./assets/portfolio/work7.jpg" class="card img-fluid" alt="work7">
                 </div>
                 <div class="c8">                
                     <div id="c8"></div>
-                    <img src="./assets/portfolio/work8.jpg" class="card" alt="work8">
+                    <img src="./assets/portfolio/work8.jpg" class="card img-fluid" alt="work8">
                 </div>
                      
          
@@ -125,13 +125,14 @@
         </div>             
 </div>
     <div class="contact">
+
       <h3>CONTACT US</h3>
-      <input type="text" class="em" placeholder="name...." />
-      <input type="email" class="em" placeholder="email...." /><br />
+      <input type="text" class="em" id="name"placeholder="name...." />
+      <input type="email" class="em" id="email" placeholder="email...." /><br />
       <input type="text" class="msg" placeholder="Your message here..." /><br>
-      <button type="button" class="submit">submit</button>
+      <button   id="submit">submit</button>
     </div>
-    <footer>
+    <footer >
       <img src="./assets/social_icons/behance.png" alt="behance" />
       <img src="./assets/social_icons/dribble.png" alt="dribble" />
       <img src="./assets/social_icons/facebook.png" alt="facebook" />
@@ -147,6 +148,7 @@
         2021
       </p>
     </footer>
+    <script src="./script.js" ></script>
   </body>
   
 </html>

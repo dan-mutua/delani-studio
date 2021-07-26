@@ -26,5 +26,18 @@ $(document).ready(function(){
   
 });
 
-
+$(document).ready(function () {
+  $("#submit").submit(function (event) {
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("input#message").val();
+    if (name !== "" && email !== "" && message !== "") {
+      alert(`${name}, we have received your message and we will get back to you ASAP!.`);
+    } else {
+      alert(
+        `Please enter your name and valid email address and write a message for us.`
+      );
+    }
+  });
+});
 
