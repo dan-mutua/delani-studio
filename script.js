@@ -26,18 +26,21 @@ $(document).ready(function(){
   
 });
 
-$(document).ready(function () {
-  $("#submit").submit(function (event) {
-    var name = $("input#name").val();
-    var email = $("input#email").val();
-    var message = $("input#message").val();
-    if (name !== "" && email !== "" && message !== "") {
-      alert(`${name}, we have received your message and we will get back to you ASAP!.`);
-    } else {
-      alert(
-        `Please enter your name and valid email address and write a message for us.`
-      );
+function validation() {
+    let name=document.getElementById("name").value;
+    let email=document.getElementById("email").value;
+    let message=document.getElementById("msg").value;
+
+    if(name=="") {
+        alert("Please enter your name");
+    } else if (email=="") {
+        alert("Please enter a valid email");
     }
-  });
-});
+    else if(message==""){
+        alert("Please enter a message");
+    }
+    else {
+        alert(name + ", we are reviewing your message and we will get back to you ASAP!");
+    }
+  }
 
